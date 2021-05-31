@@ -1,0 +1,40 @@
+{
+    "name": "TestSet1",
+    "description": "test set for load config",
+    "testCases": [
+        {
+            "name": "abc",
+            "description": "Sample Test Case 1",
+            "testSteps": [
+                {
+                    "commandName": "LoadConfig",
+                    "params": {
+                        "Device": 1001
+                    },
+                    "expectedOutcomes": {
+                        "Command": "LoadConfig",
+                        "Device": 1001,
+                        "Status": "ok"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "def",
+            "description": "Sample Test Case 2",
+            "testSteps": [
+                {
+                    "commandName": "LoadConfig",
+                    "params": {
+                        "Device": 1001
+                    },
+                    "expectedOutcomes": {
+                        "Command": "LoadConfig",
+                        "Device": 1001,
+                        "Status": "ok"
+                    }
+                }
+            ]
+        }
+    ]
+}
