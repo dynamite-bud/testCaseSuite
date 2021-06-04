@@ -42,9 +42,6 @@ function createData(name, calories, fat, carbs, protein, price) {
 }
 
 const rows = [
-  createData("Cupcake", 305, 3.7, 67, 4.3, 3.99),
-  createData("Donut", 452, 25.0, 51, 4.9, 3.99),
-  createData("Eclair", 262, 16.0, 24, 6.0, 3.99),
   createData("Frozen yoghurt", 159, 6.0, 24, 4.0, 3.99),
   createData("Gingerbread", 356, 16.0, 49, 3.9, 3.99),
   createData("Honeycomb", 408, 3.2, 87, 6.5, 3.99),
@@ -66,6 +63,8 @@ function descendingComparator(a, b, orderBy) {
   }
   return 0;
 }
+
+
 
 function getComparator(order, orderBy) {
   return order === "desc"
